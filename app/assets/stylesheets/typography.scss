@@ -1,0 +1,25 @@
+h1 {
+  display: block;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+}
+p {
+  font-size: 16px;
+}
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: rgba(0,0,0,0.3);
+  }
+}
